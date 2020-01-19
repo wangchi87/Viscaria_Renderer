@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\Global_Settings.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\Intersection.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\Ray.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\RenderRunner.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\Scene.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\SceneFileParser.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\stdafx.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Foundations\BBox.cpp">
+      <Filter>Foundations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Foundations\TransformBetweenGlobalAndLocal.cpp">
+      <Filter>Foundations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Foundations\Vector.cpp">
+      <Filter>Foundations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Image\ImageRawData.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\Attenuation.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\BRDFModels.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\CoefficientSpectrum.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\Material.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\MicroFacetModel.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\PolarisedLight.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\PolarisingAttenuation.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\Polarization.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\Spectrum.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightTransportationSim\DirectIllumination.cpp">
+      <Filter>LightTransportationSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightTransportationSim\LightTransSim.cpp">
+      <Filter>LightTransportationSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightTransportationSim\PathTracer_MIS.cpp">
+      <Filter>LightTransportationSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shapes\Cube.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shapes\Mesh.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shapes\Objects.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shapes\tiny_obj_loader.cc">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shapes\tinyply\tinyply.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shapes\Triangle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\MicroSurface.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Foundations\Memory.cpp">
+      <Filter>Foundations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Image\Texture.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Image\FreeImageInterface.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Image\ImagePort.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\LightMapGen.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightTransportationSim\PhotonTracer.cpp">
+      <Filter>LightTransportationSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightAndAttenuation\Photon.cpp">
+      <Filter>LightAndAttenuation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\Global_Settings.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\Intersection.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\Ray.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\RenderRunner.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\Scene.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\SceneFileParser.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\stdafx.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\targetver.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\Assertion.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\BBox.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\Inline_functions.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\Matrix.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\KdTree.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\RandomNumber.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\ReadFloatFile.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\TransformBetweenGlobalAndLocal.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\Vector.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Image\ImageRawData.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\Attenuation.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\BRDFModels.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\CoefficientSpectrum.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\Material.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\MicroFacetModel.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\PolarisedLight.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\PolarisingAttenuation.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\Polarization.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\Spectrum.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightTransportationSim\BasicFunctionsforLightTransportation.h">
+      <Filter>LightTransportationSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightTransportationSim\DirectIllumination.h">
+      <Filter>LightTransportationSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightTransportationSim\LightTransSim.h">
+      <Filter>LightTransportationSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightTransportationSim\integrator.h">
+      <Filter>LightTransportationSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightTransportationSim\PathTracer_MIS.h">
+      <Filter>LightTransportationSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Physics\Fresnel.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shapes\Cube.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shapes\geometry.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shapes\Mesh.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shapes\Objects.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shapes\tiny_obj_loader.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shapes\tinyply\tinyply.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shapes\Triangle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\MicroSurface.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Foundations\Memory.h">
+      <Filter>Foundations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Image\Texture.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Image\FreeImageInterface.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Image\ImagePort.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\LightMapGen.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightTransportationSim\PhotonTracer.h">
+      <Filter>LightTransportationSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightAndAttenuation\Photon.h">
+      <Filter>LightAndAttenuation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{749dde14-80bd-4a24-a802-1efc4deddd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{a6ddf49a-8827-41d1-9edb-e3bf41320728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Foundations">
+      <UniqueIdentifier>{66f8de0a-65ed-4f4b-8b00-4f035243eef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{50b346a2-7b4d-427f-bcb1-b65074fd0144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightAndAttenuation">
+      <UniqueIdentifier>{fa357526-9365-4f65-84bb-72184b33f532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightTransportationSim">
+      <UniqueIdentifier>{d619cc01-dc55-4355-b055-a3596a4fc84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{27c8fe88-d0e1-4f4a-9b6b-05653cc3cb03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{553823ac-0de5-4ad2-a28a-205de475c78c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
