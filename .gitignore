@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/Viscaria_renderer/v16
+/bin/Release
+/Viscaria/x64/Release
+/Viscaria_core/x64/Release
+/lib/Release

@@ -196,10 +196,8 @@ void SceneFileParser::ParseSceneFile (
 					color[ 2 ] = color[ 2 ] / 255;
 
 					Spectrum ref = Spectrum( color );
-					ref.Normalise();
 
 					mat = new Material( ref );
-					//					brdf->initRefColors ( ref );
 				}
 
 				if ( strcmp( option, "SHAPE" ) == 0 )
